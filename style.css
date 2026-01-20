@@ -1,0 +1,67 @@
+:root {
+    --bg-dark: #0f0728;      
+    --card-bg: #1e1236;      
+    --green: #00FF88;        
+    --text-main: #ffffff;
+    --text-muted: #9ca3af;
+    --gradient-btn: linear-gradient(90deg, #FFC837 0%, #FF8008 50%, #d946ef 100%);
+    --gradient-text: linear-gradient(90deg, #FFFFFF 0%, #FF8008 50%, #d946ef 100%);
+    --gradient-spotify: linear-gradient(90deg, #FFC837 0%, #d946ef 100%);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    overflow-x: hidden;
+    line-height: 1.5;
+}
+img { max-width: 100%; display: block; }
+a { text-decoration: none; color: inherit; transition: 0.3s; }
+ul { list-style: none; }
+
+.container { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+
+.text-gradient {
+    background: linear-gradient(90deg, #ffffff, #d946ef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-green { color: var(--green); }
+.section-title { font-size: 2.5rem; font-weight: 700; text-align: center; margin-bottom: 3rem; }
+
+
+.navbar {
+    position: fixed; top: 0; left: 0; width: 100%;
+    padding: 1rem 0;
+    background: rgba(15, 7, 40, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+.nav-content { display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 1.5rem; font-weight: 800; }
+
+.nav-menu { display: flex; gap: 2.5rem; }
+.nav-menu a { color: #ccc; font-weight: 500; font-size: 0.95rem; }
+.nav-menu a:hover { color: #fff; }
+
+.btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 0.9rem;
+    cursor: pointer;
+}
+.btn-gradient { background: linear-gradient(90deg, #FACC15, #d946ef); color: white; }
+.btn-gradient:hover { box-shadow: 0 0 15px rgba(217, 70, 239, 0.5); }
+
+.nav-checkbox, .nav-hamburger, .mobile-only { display: none; }
+@media (max-width: 768px) {
+    .nav-hamburger { display: block; cursor: pointer; }
+    .nav-menu {
+        display: none; position: absolute; top: 100%; left: 0; width: 100%;
+        background: var(--bg-dark); flex-direction: column; padding: 2rem; gap: 1.5rem;
+    }
+    .nav-checkbox:checked ~ .nav-menu { display: flex; }
+    .nav-btn-wrapper { display: none; }
+    .mobile-only { display: block; }
+}
