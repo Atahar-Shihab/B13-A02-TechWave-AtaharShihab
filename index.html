@@ -3,38 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>TechWave Podcast</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <nav class="navbar">
+
+    <nav class="navbar">
         <div class="container nav-content">
             <a href="#" class="logo">
                 Tech<span class="text-gradient">Wave</span>
             </a>
 
-            <input type="checkbox" id="nav-toggle" class="nav-checkbox">
-            <label for="nav-toggle" class="nav-hamburger">
-                <img src="assets/hamburger-menu.png" alt="Menu" width="24">
-            </label>
-
             <ul class="nav-menu">
                 <li><a href="#about">About</a></li>
                 <li><a href="#episodes">Episodes</a></li>
                 <li><a href="#host">Host</a></li>
-                <li class="mobile-only">
-                    <a href="#" class="btn btn-gradient">Subscribe <i class="fa-solid fa-arrow-right"></i></a>
-                </li>
             </ul>
 
             <div class="nav-btn-wrapper">
-                <a href="#" class="btn btn-gradient">
-                    Subscribe <i class="fa-solid fa-arrow-right"></i>
-                </a>
+                <a href="#" class="btn btn-gradient">Subscribe</a>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <img src="assets/hamburger-menu.png" alt="Menu" width="30">
             </div>
         </div>
     </nav>
-    
+
+    <header class="hero">
+        <div class="container hero-container">
+            
+            <div class="hero-visual">
+                <div class="circle-wrapper">
+                    <img src="assets/hero-circle.png" alt="" class="circle-bg">
+                    <img src="assets/microphone.png" alt="Mic" class="mic-icon">
+                    <div class="badge-new">NEW</div>
+                </div>
+            </div>
+
+            <h1 class="hero-title">TechWave</h1>
+            <p class="hero-subtitle">
+                Your daily dose of tech insights, productivity hacks, and personal growth
+            </p>
+
+            <div class="hero-actions">
+                <a href="#" class="btn btn-spotify">
+                    <img src="assets/spotify.png" class="btn-icon" alt=""> Listen On Spotify
+                </a>
+                <a href="#" class="btn btn-outline">
+                    <img src="assets/message.png" class="btn-icon-green" alt=""> Subscribe
+                </a>
+            </div>
+
+            <div class="stats-section">
+                <div class="stat-box">
+                    <h3 class="text-green">150K+</h3>
+                    <p>Monthly Listeners</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="text-green">200+</h3>
+                    <p>Episodes Published</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="text-green">4.9 <i class="fa-solid fa-star star-small"></i></h3>
+                    <p>Average Rating</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="text-green">50+</h3>
+                    <p>Industry Experts</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <section class="features">
         <div class="container">
             <h2 class="section-title">Why Choose TechWave</h2>
@@ -90,7 +136,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="episodes">
         <div class="container">
             <h2 class="section-title">Featured Episodes</h2>
