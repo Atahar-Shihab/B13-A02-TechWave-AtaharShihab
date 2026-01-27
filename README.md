@@ -1,103 +1,91 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-002 😎
+# 🎙️ TechWave - Podcast Website
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Responsive](https://img.shields.io/badge/Responsive-Design-brightgreen?style=for-the-badge)
+
+> 🚀 A modern, fully responsive podcast website showcasing TechWave episodes with engaging UI/UX design.
 
 ---
 
-📅 Deadline For 60 marks: 20th January, 2026 (11:59 pm ⏱️)
+## ✨ Features
 
-📅 Deadline For 50 marks: 21th January, 2026 (11:59 pm ⏱️)
-
-📅 Deadline For 30 marks: Any time after 21th January.
-
-# TechWave - Podcast Website
-
-## ❓ Common Questions & Answers
-
-**Can I use different images?**
-
-- Yes, you may use any relevant images.
-
-**Can I change the alignment and design freely?**
-
-- No. You must follow the alignment and layout shown in the Figma design.
-
-**Can I change colors?**
-
-- Yes, as long as the colors are relevant and visually consistent.
-
-**Do I need to make the page pixel-perfect?**
-
-- No. You can use your own margin and padding while following the overall structure from Figma.
+- 📱 **Fully Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- 🎨 **Modern UI** - Beautiful gradient effects and smooth animations
+- 🎯 **Interactive Navigation** - Hamburger menu for mobile, smooth scrolling
+- 🎵 **Podcast Episodes** - Featured episodes with embedded video links
+- 👤 **Host Profiles** - Professional host showcases with social media integration
+- 📊 **Statistics Section** - Key metrics displayed elegantly
+- ✅ **Performance Optimized** - Fast loading and smooth interactions
 
 ---
 
-## 📌 Assignment Requirements
+## 📋 Assignment Requirements
+
+## 🎯 Components Implemented
+
+### 1️⃣ Navbar
+- **Desktop**: Logo, centered menu items, gradient subscribe button
+- **Mobile**: Hamburger menu with responsive navigation
+- Smooth scrolling to sections
+
+### 2️⃣ Hero/Banner Section
+- Eye-catching background image
+- Centered podcast visual with interactive effects
+- Call-to-action buttons
+- Fully responsive layout
+
+### 3️⃣ About Section
+- Compelling heading and description
+- 4 key statistics displayed in grid (responsive: 2x2 on mobile)
+- Professional styling with smooth transitions
+
+### 4️⃣ Why Choose Section
+- 5 feature cards with icons
+- Descriptive content for each feature
+- Fully responsive card grid layout
+
+### 5️⃣ Featured Episodes
+- 3 episode showcase cards
+- Embedded YouTube video links
+- Episode details (title, description, duration)
+- Mobile-responsive layout
+
+### 6️⃣ Host Section
+- Professional host profile with photo
+- Biography and social media links
+- Elegant two-column layout
+
+### 7️⃣ Footer
+- Brand information and copyright
+- Center-aligned responsive design
+- Social media integration
+
+---
+
+## 📌 Full Requirements
 
 ### ✅ Main Requirements (50 Marks)
 
-### Navbar
-
-- **Desktop/Laptop/Large Device:**
-  - Logo on the Left
-  - Menu Items in the Center (like Figma design)
-  - Gradient Button on the Right
-- **Mobile Device:**
-  - Hidden nav items with hamburger menu icon
-  - Fully responsive navigation
-
-### Banner Section
-
-- **Desktop/Laptop/Large Device:**
-  - Background Image
-  - Center-aligned podcast circle view with visual effects
-  - Relevant heading and descriptive text at center
-  - Two call-to-action buttons below the text
-- **Mobile Device:**
-  - Mobile responsive layout matching Figma design
-
-
-### About Section
-
-- **Desktop/Laptop/Large Device:**
-  - Heading with descriptive text at the top
-  - 4 statistics items displayed in a row with proper styling
-- **Mobile Device:**
-  - 4 statistics items responsive layout (2x2 grid stacked on mobile)
-
-### Why Choose Section
-
-- **Desktop/Laptop/Large Device:**
-  - 5 feature cards layout matching Figma design
-  - Each card contains: icon, title, and description
-- **Mobile Device:**
-  - Fully responsive card layout
-  - Single column layout on mobile devices
-
-### Featured Episodes Section
-
-- **Desktop/Laptop/Large Device:**
-  - 3 featured episode cards layout
-  - Each card includes: title, description, and duration
-  - YouTube video links embedded in cards
-- **Mobile Device:**
-  - Responsive card layout for mobile devices
-
-### Footer Section
-
-- **Desktop/Laptop/Large Device:**
-  - Center-aligned layout with brand and platform information
-  - Copyright information 
-- **Mobile Device:**
-  - Responsive footer layout maintaining readability
+| Feature | Desktop | Mobile |
+|---------|---------|--------|
+| **Navbar** | Logo, menu items, gradient button | Hamburger menu, responsive |
+| **Banner** | Background image, visual effects, CTAs | Responsive layout |
+| **About** | Heading + 4 stats in row | 2x2 grid layout |
+| **Why Choose** | 5 feature cards | Responsive grid |
+| **Episodes** | 3 cards with videos | Mobile responsive |
+| **Footer** | Center-aligned info | Responsive layout |
 
 ---
 
-## 🚀 CHALLENGES (10 Marks)
+## 🚀 Challenge Features (10 Marks)
 
-### Host Section
-
-- **Desktop/Laptop/Large Device:**
-  - Image on the left with host name, biography, and social media icons
-  - Professional layout with proper alignment
+### 👤 Host Section
+- Professional host profile with photo
+- Host biography and details
+- Social media integration
+- Elegant layout with proper alignment
 - **Mobile Device:**
   - Responsive layout with stacked design for mobile view
 
@@ -119,28 +107,90 @@
 
 ---
 
-## 🛠️ Tech Stack
+## � Tech Stack
 
-- HTML5
-- CSS3/Tailwind CSS
-- No JavaScript
-
----
-
-## ✅ Submission Checklist
-
-- Figma layout followed correctly
-- Proper alignment and spacing
-- Clean and readable HTML & CSS
-- Each Section are responsive with proper breakpoints
-- Live site deployed
-- Public GitHub repository
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with flexbox and grid
+- **Font Awesome** - Icon library  
+- **Google Fonts** - Inter typography
 
 ---
 
-## 📂 Submission Format
+## 🚀 Getting Started
 
-- **GitHub Repository Link**
-- **Live Website Link (GitHub Pages)**
+### Prerequisites
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- No dependencies or build tools needed
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/TechWave-Podcast.git
+
+# Navigate to project
+cd TechWave-Podcast
+
+# Open in browser or use live server
+```
+
+---
+
+## 📁 Project Structure
+
+```
+TechWave-Podcast/
+├── index.html          # Main HTML file
+├── style.css           # Stylesheet
+├── README.md           # Project documentation
+└── assets/             # Images and media
+    └── UI/             # UI components
+```
+
+---
+
+## ✨ Implementation Checklist
+
+✅ Figma layout followed correctly  
+✅ Proper alignment and responsive spacing  
+✅ Clean and semantic HTML & CSS  
+✅ Fully responsive with proper breakpoints  
+✅ Smooth animations and transitions  
+✅ No Lorem Ipsum - meaningful content  
+✅ Minimum 5 Git commits with messages  
+✅ Live site deployed  
+✅ Public GitHub repository  
+
+---
+
+## 🎨 Design Highlights
+
+- Modern gradient color scheme
+- Consistent typography (Inter font family)
+- Smooth transitions and hover effects
+- Professional icon usage (Font Awesome)
+- Grid-based responsive layout
+- Accessible navigation patterns
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit issues and enhancement requests.
+
+---
+
+## 📄 License
+
+This project is part of an academic assignment - B13-A02-TechWave
+
+---
+
+## 👨‍💻 Author
+
+**Atahar Shihab**
+
+---
+
+**Made with ❤️ | Responsive Design Excellence**
 
 ---
